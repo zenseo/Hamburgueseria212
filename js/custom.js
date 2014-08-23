@@ -273,12 +273,14 @@ $(document).ready(function() {
      if($('#menuHambs').length){ 
          $("#menuHambs").owlCarousel({
              autoPlay: true,
+             items: 4,
          });
      }
 
      if ($('#menuDrinks').length) {
          $("#menuDrinks").owlCarousel({
              autoPlay: true,
+             items: 4,
          });
      }
     /*

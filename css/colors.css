@@ -57,7 +57,7 @@ blockquote small {
 	color:inherit;
 }
 h1, h2, h3, h4, h5, h6 {
-	color:#fff;
+	color:#C70000;
 }
 h2 {
  color:#888888;	
@@ -77,7 +77,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-color:#000000;
 }
 #home {
-	background-image:url('../images/panoramicaCaracasNocheB&W.jpg');
+	background-image:url('../images/PanCcsNocheBW.jpg');
 }
 #paralaxSlice1 {
 	background-image: url('../images/panCaracasB&W2.jpg');
@@ -385,7 +385,7 @@ border:none}
 /*color1 FONDO NEGRO CON LETRAS Blancas  */
 .color1, .slice.color1, .bulle.color1, .ctaBox.color1{
 	background-color:#000000;
-	background-image: url(../images/letras4.PNG);
+	background-image: url(../images/fondonegro2.png);
 	background-repeat: repeat;
 	color:#E5E5E5;
 }
