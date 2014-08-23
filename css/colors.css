@@ -167,7 +167,6 @@ ul.iconsList li a:hover, ul.iconsList i {
 	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-	max-height: 88px;
 }
 
 #mainHeader .navbar-inner {
@@ -180,6 +179,12 @@ ul.iconsList li a:hover, ul.iconsList i {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background: #C70000;
 	color:#fff;
+}
+
+@media(max-width:767px){
+    #mainHeader{
+        height:88px;
+    }
 }
 
 /* END MAIN MENU 

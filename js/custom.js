@@ -283,6 +283,19 @@ $(document).ready(function() {
              items: 4,
          });
      }
+
+     if ($('#ShowSlider').length) {
+         $("#ShowSlider").owlCarousel({
+             stopOnHover:true,
+             autoPlay: true,
+             slideSpeed: 300,
+             paginationSpeed: 400,
+             singleItem: true,
+             autoHeight: true,
+             transitionStyle: "fade",
+             lazyLoad:true
+         });
+     }
     /*
     |--------------------------------------------------------------------------
     | FLEXSLIDER
